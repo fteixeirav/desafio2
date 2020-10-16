@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#App-header {
+  max-width: 100%;
+
+  background-color: #FFF;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+#App-header .App-relogio {
+  width: 250px;
+  padding: 25px 60px;
+  margin-top: 10px;
+
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+#App-header .App-relogio h1 {
+  margin-block-start: 0em;
+  margin-block-end: 0.1em;
+  font-size: 2.5em;
+  font-weight: 1000;
+}
+
+#App-header .App-relogio h2 {
+  line-height: 65px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-size: 3.5em;
+  font-weight: 900;
+}
+
+#App-header .App-relogio form select {
+  margin-top: 15px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  padding: 4%;
+}
+
+#App-header .App-cron {
+  width: 250px;
+  padding: 25px 60px;
+  margin-top: 10px;
+
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+#App-header .App-cron h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 1000;
+}
+
+#App-header .App-cron .div-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#App-header .App-cron .div-buttons .buttons-cron {
+  background-color: rgba(0,0,0,0.5);
+
+  font-size: 16px;
+  font-weight: bold;
+
+  padding: 10px;
+
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+#App-header .App-cron .div-buttons .buttons-cron:nth-child(1) {
+  margin-left: 0;
+}
+
+#App-header .App-temp {
+  width: 250px;
+  padding: 25px 60px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+#App-header .App-temp h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 1000;
+}
+
+#App-header .App-temp p {
+  text-align: center;
+}
+
+#App-header .App-temp form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#App-header .App-temp form button {
+  color: #00C7C7;
+  font-size: 15px;
+  border: none;
+  font-weight: 900;
+  border-radius: 5px;
+  padding: 3%;
+}
+
+#App-header .App-temp form div {
+  padding: 15px;
+}
+
+#App-header .App-temp form div input {
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  border-radius: 2px;
+  margin-left: 3px;
+  width: 29%;
+  padding: 3px;
+}

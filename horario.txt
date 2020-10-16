@@ -1,0 +1,18 @@
+npmjs.com/package/react-moment
+
+const localTime = moment().locale("pt-br");
+
+momentjs.com
+
+yarn add moment 
+
+20:27
+yarn add moment 
+
+import moment from 'moment'
+
+const localTime = moment().locale("pt-br");
+
+momentjs.com
+
+npmjs.com/package/react-moment
